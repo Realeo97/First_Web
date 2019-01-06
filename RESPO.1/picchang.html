@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="RESPO.css">
+	<script src="http://cdn.static.runoob.com/libs/jquery/1.10.2/jquery.min.js">
+    </script>
+</head>
+<body>
+<p class="jq">123</p>
+	<img src="3.png" alt="" class="pic">
+	<img src="4.png" alt="" class="pic">
+	<img src="5.png" alt="" class="pic">
+	<img src="6.png" alt="" class="pic">
+	<img src="3.png" alt="" class="pic">
+	<img src="4.png" alt="" class="pic">
+	<img src="5.png" alt="" class="pic">
+	<script>
+		$(".pic").css("marginTop",(window.innerHeight-$('.pic').height())/2+"px");
+        $(document).ready(function(){
+        	var picnum=$(".pic").length;
+        	var i=0;
+        	function change(){
+        		if(i==picnum){
+        			i=0;
+        		}
+        		i++;
+        		$(".pic").eq(i).siblings().fadeOut("slow","linear");
+        		$(".pic").eq(i).fadeIn("slow","linear");
+        	}
+        	setInterval(change,3000);
+        })		
+	</script>
+</body>
+</html>

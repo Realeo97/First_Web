@@ -1,0 +1,555 @@
+div {
+    display: block;
+    border: 0px solid #000;
+    }
+a   {
+    text-decoration:none;
+    }
+.logo {
+    padding:27px 100px;
+    }
+.respo{ 
+    font-size: 90px;
+    color: #ffffff;
+    line-height: 1.4;
+    text-decoration: underline;
+    border: 0px solid #000;
+    margin-left: 400px;
+    margin-top: 200px;
+    position: absolute;
+    }
+
+body{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    color: #333;
+    background-color: #fff; 
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    }
+.background-img1{
+    position: relative;
+    /*相对定位元素的定位是相对其正常位置*/
+    background:url(1.jpg) no-repeat;
+    background-size: 100% 100% ;
+    margin: 0px 0px 0px 0px;
+    width: 100%;
+    height:768px;
+    }
+.backgroung-img2{
+    background-color: rgba(105, 134, 69, 0.8);
+    width: 100%;
+    height:768px;
+    position: absolute;
+    }
+
+li  {
+    display: inline;
+    margin-left: 10px;
+  }
+.ul {
+    float: right;
+    list-style-type: none;
+    font-weight: bold;
+    padding: 27px 200px;
+   }
+.menu{
+    position: fixed;
+    top: 100px;
+    background-color: #444400;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0), 0px 2px 10px 0px rgba(0, 0, 0, 0.08);
+    border: 0 none;
+    border-radius: 0;
+    width: 100%;
+    z-index: 90;
+    display: none;
+    /*z-index属性指定了一个元素的堆叠顺序（哪个元素应该放在前面，或后面）*/
+    }
+.menu-top{
+    position: relative;
+    top: 0px;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0), 0px 2px 10px 0px rgba(0, 0, 0, 0.08);
+    border:0 none;
+    border-radius: 0;
+    width: 100%;
+}
+.background2{
+    width: 100%;
+    height: 100%;
+    }
+.p1 {
+    margin-top: 0px;
+    padding-top: 100px;
+    margin-left: 500px;
+    text-shadow: rgba(0, 0, 0, 0.00392157);
+    font-family: 'Montserrat', sans-serif;
+    color: #afb42b;
+    font-size: 50px ;
+    font-weight: bold;
+   }
+.p2 {
+    height: 2px;
+    width: 160px;
+    margin-top: 5px;
+    margin-left: 580px;
+    background-color: #afb42b;
+   }
+.title-1{
+    margin-top: 0px;
+    position: relative;
+    display: none;
+}
+.pic-1 {
+    float: left;
+    position: relative;
+    left:-550px; 
+    overflow: hidden;
+   }
+.content-1 {
+    overflow: hidden;
+    width: 550px;
+    left: 800px;
+    margin-top: 20px;
+    line-height: 22px;
+    position: relative;
+    border: 0px solid #000;
+   }
+.title-2{
+    margin-top: 0px;
+    position: relative;
+    display: none;
+}
+.title-3{
+    margin-top: 0px;
+    position: relative;
+    display: none;
+}
+.p5 {
+    clear: both;
+    /*清除浮动*/
+    position: relative;
+    background-color: #fff;
+    width: 100%;
+    height: auto;
+    top: 0px;
+    left: 0px;
+    overflow: auto;
+     /*如果溢出框，则应该提供滚动机制*/
+    }
+.left-top-pic{
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin-top: 0px;
+    position: absolute;
+   }
+.right-bottom-pic {
+    float: right;
+    width: 200px;
+    height: 200px;
+    margin-top: 0px;
+    bottom: 0px;
+    position: relative;
+    border:0px solid #000;
+
+   }
+.p6 {
+    position: relative;
+    background-color: #444400;
+    margin-top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    height: auto;
+    overflow: auto;
+   }
+.p8 {
+    line-height: 10px;
+    margin-top: 30px;
+    color: #818181;
+   }
+.content-2-p {
+    color: #818181;
+    line-height: 10px;
+    margin-bottom: 100px;
+    text-align: center;
+    border: 0px solid #000;
+    }
+.content-2{
+    width: 330px;
+    margin-top: 100px;
+    float: left;
+    border: 0px solid #000;
+    }
+.content-2-left{
+    width: 666px;
+    left: -700px;
+    position: relative;
+    overflow: hidden;
+    float: left;
+}
+.content-2-right{
+    float: left;
+    width: 666px;
+    left: 700px;
+    position: relative;
+    overflow: hidden;
+}
+.pic-2{
+    width: 100px;
+    height: 100px;
+    margin-left: 100px;
+    border: 0px solid #000;
+    }
+.p11{
+   width: 100%;
+    }
+.content-2-h6{
+    text-shadow: rgba(0, 0, 0, 0.00392157);
+    font-family: 'Montserrat', sans-serif;
+    color: #afb42b;
+    font-size: 20px ;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+    border: 0px solid #000;
+    }
+.title-4{
+    margin-top: 0px;
+    position: relative;
+    display: none;
+}
+.pic-4{
+    margin-top: 10px;
+    margin-left: 0px;
+    width: 136px;
+    height: 136px;；
+    border: 0px solid #000;
+    }
+.content-4-p-left{
+    display: inline;
+    /*内联样式*/
+    color: #818181;
+    line-height: 10px;
+    text-align: center;
+    margin-bottom: 30px;
+    width: 300px;
+    float: left;
+    position: relative;
+    overflow: hidden;
+    margin-left: 100px;
+    left: -400px;
+    }
+.content-4-p-center{
+    display: inline;
+    /*内联样式*/
+    color: #818181;
+    line-height: 10px;
+    text-align: center;
+    margin-bottom: 30px;
+    float: left;
+    position: relative;
+    overflow: hidden;
+    margin-left: 100px;
+    width: 300px;
+    top: 300px;
+}
+.content-4-p-right{
+    float: left;
+    display: inline;
+    /*内联样式*/
+    color: #818181;
+    line-height: 10px;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-left: 100px;
+    width: 300px;
+    position: relative;
+    overflow: hidden;
+    left: 600px;
+    }
+/*.a3{
+    position: relative;
+    border: 2px solid #000;
+    left: 118px;
+    right: 119px;
+    top: 90px;
+    bottom: 90px;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+}*/
+.a0{
+    position: relative;
+    border: 0px solid #000;
+    border-radius: 100%;
+    left: 118px;
+    right: 119px;
+    top: 90px;
+    width: 0px;
+    height: 100px;
+    background-color: #afb42b;
+   }
+.a1{
+    position: relative;
+    border: 0px solid #000;
+    width: 337px;
+    height: 280px;
+    float: left;
+    margin-top: 60px;
+    margin-left: 0px;
+    } 
+.c  {
+    margin-left: 550px;
+    text-shadow: rgba(0, 0, 0, 0.00392157);
+    font-family: 'Montserrat', sans-serif;
+    color: #afb42b;
+    font-size: 50px ;
+    font-weight: bold;
+    margin-top: 0px;
+    padding-top: 100px;
+    }
+.content-5-left{
+    position: relative;
+    overflow: hidden;
+    margin-left: 100px;
+    margin-top: 100px;
+    float: left;
+    border:1px solid #afb42b;
+    width: 390px;
+    height: 460px;
+    left: -500px;
+    }
+.content-5-center{
+    position: relative;
+    overflow: hidden;
+    margin-top: 100px;
+    float: left;
+    border:1px solid #afb42b;
+    width: 390px;
+    height: 460px;
+    top: 300px;
+    }
+.content-5-right{
+    position: relative;
+    overflow: hidden;
+    margin-top: 100px;
+    float: left;
+    border:1px solid #afb42b;
+    width: 390px;
+    height: 460px;
+    left: 500px;
+    }
+.title-5{
+    margin-top: 0px;
+    position: relative;
+    display: none;
+} 
+.title-6{
+    margin-top: 0px;
+    position: relative;
+    display: none;
+}  
+.content-6{
+    float: left;
+    overflow: hidden;
+    position: relative;
+    width: 1350px;
+    height: 400px;
+    border: 0px solid #000;
+}  
+.title-7{
+    margin-top: 0px;
+    position: relative;
+    display: none;
+}
+.content-7{
+    position: relative;
+    width: 100%;
+    left: 1400px;
+}      
+.f  {
+    float: left;
+    height: 15%;
+    width: 15%;
+    margin-top: 0px;
+    }
+.g{
+    text-shadow: rgba(0, 0, 0, 0.00392157);
+    font-family: 'Montserrat', sans-serif;
+    color: #afb42b;
+    font-size: 35px ;
+    font-weight: bold;
+    margin-top: 0px;
+    padding-top: 20px;
+    margin-left: 150px;
+    }
+.h  {
+   text-shadow: rgba(0, 0, 0, 0.00392157);
+    font-family: 'Montserrat', sans-serif;
+    color: #afb42b;
+    font-size: 30px ;
+    font-weight: bold;
+  line-height: 5px;
+    margin-left: 140px;
+    }
+.i  {
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    color: #818181;
+    margin-top: 40px;
+    line-height: 30px;
+    text-align: center;
+    }
+.j  {
+    border-radius: 50px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #afb42b;
+    width: 125px;
+    height: 60px;
+    margin-left: 130px;
+    background-color: #afb42b;
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+    }
+.k  {
+    border: solid 2px #ffffff;
+    border-radius: 100px;
+    margin-left: 600px;
+    margin-top: 100px;
+    }
+.l{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #818181;
+    line-height: 20%;
+    /*指定了行与行之间的空间*/
+    text-align: center;
+    letter-spacing: -1px;
+    /*指定了字符之间的空间*/
+    word-spacing: 1px;
+    /*增加单词之间的空格*/
+    }
+.m  {
+    width: 100%;
+    margin: 0px;
+    border:0px;
+    }  
+.n  {
+    margin-left: 300px;
+    width: 700px;
+    line-height: 30px;
+    margin-top: 30px;
+    }
+.o  {
+    margin-left: 300px;
+    margin-top: 30px;
+    width: 700px;
+    line-height: 300px;
+    }
+.p  {
+    border:solid 1px #444400;
+    width: 700px;
+    line-height: 60px;
+    margin-left: 300px;
+    background-color: #444400;
+    margin-top: 30px;
+    }
+.q  {
+    background-color: #444400;
+    width: 100%;
+    line-height: 40px;
+    margin-top: 60px;
+    }
+.r  {
+    margin-left: 500px;
+    margin-top: 20px;
+    }
+.s  {
+    margin-left: 580px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    }
+.touxiang{
+    border: 2px solid #ddd;
+    border-radius: 100%;
+    width: 130px;
+    height: 130px;
+    margin-top: 100px;
+    margin-left: 600px;
+    overflow: hidden;
+}
+.toleft{
+    position: relative;
+    border: 0px solid #000;
+    border-radius: 100%;
+    height: 10px;
+    width: 10px;
+    margin-left: 650px;
+    float: left;
+    margin-top: -20px;
+    margin-bottom: 100px;
+    background-color: rgb(175,180,43);
+}
+.toright{
+    position: relative;
+    border: 0px solid #000;
+    border-radius: 100%;
+    height: 10px;
+    width: 10px;
+    margin-left: 10px;
+    float: left;
+    margin-top: -20px;
+    margin-bottom: 100px;
+    background-color: rgb(175,180,43);
+}
+.tocenter{
+    position: relative;
+    border: 0px solid #000;
+    border-radius: 100%;
+    height: 10px;
+    width: 10px;
+    margin-left: 10px;
+    float: left;
+    margin-top: -20px;
+    margin-bottom: 100px;
+    background-color: rgb(175,180,43);
+}
+.pictoleft{
+    position: relative;
+    border: 0px solid #000;
+    border-radius: 100%;
+    height: 10px;
+    width: 10px;
+    margin-left: 650px;
+    float: left;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    background-color: rgb(175,180,43);
+}
+.pictoright{
+    position: relative;
+    border: 0px solid #000;
+    border-radius: 100%;
+    height: 10px;
+    width: 10px;
+    margin-left: 10px;
+    float: left;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    background-color: rgb(175,180,43);
+}
+.pic{
+    margin-left: 300px;
+    position: absolute;
+}
+
+.jq{
+    color: red;
+}
